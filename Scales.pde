@@ -7,23 +7,23 @@ void setup() {
   
 }
 
+//Grid
 void draw() {
   for(float j=(float)0;j<500;j+=(float)2*17.3205080757){
   for(int t=-30;t<510;t+=60){
 hexa(t,j-2*m);
 hexa(t+30,j);
   }
-//hexa(30,-2*m);
-//hexa(60,0);
+
 
 }
 }
 
 
-
+//scale function
 void hexa(float x, float y) {
-  loop();
- float q =(float)((Math.random()*.15)+.9);
+loop();
+float q =(float)((Math.random()*.15)+.9);
 System.out.print(q);
 noLoop();
 float k=(float)(Math.random())*10;
