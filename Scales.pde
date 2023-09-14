@@ -3,8 +3,7 @@ float m=(float)Math.pow(3,.5)*5;
 float h =(float)Math.pow(2,.5)*2;
 void setup() {
   size(500, 500);  //feel free to change the size
-float m=(float)Math.pow(3,.5)*5;
-float h =(float)Math.pow(2,.5)*2;
+
   noLoop(); //stops the draw() function from repeating
   
 }
