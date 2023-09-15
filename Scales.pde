@@ -25,7 +25,7 @@ hexa(t+30,j);
 void hexa(float x, float y) {
 loop();
 float q =(float)((Math.random()*.15)+.9);
-System.out.print(q);
+//System.out.print(q);
 noLoop();
 float k=(float)(Math.random())*10;
 
