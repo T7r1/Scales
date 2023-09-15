@@ -40,7 +40,7 @@ vertex(10+x,4*m+y);
 vertex(0+x,2*m+y);
 vertex(10+x,0+y);
 endShape();
-float b=(float)(Math.random())*20;
+float b=(float)(Math.random())*15;
 fill(175+b,175+b,175+b);
 
 beginShape();
