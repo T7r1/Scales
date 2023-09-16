@@ -31,12 +31,9 @@ hexa(t+30,j);
 //}
 void hexa(float x, float y) {
 loop();
-if (r==5){
+
 q =(float)(Math.random()*2);
 
-r=0;
-}else
-r++;
 //System.out.print(q);
 float k=(float)(Math.random())*10;
 noLoop();
@@ -57,7 +54,22 @@ float c=2.82842712475f;
 float b=(float)(Math.random())*15;
 fill(175+b,175+b,175+b);
   float u =(float)(Math.random()*2);
+if (r==5){
+  beginShape();
+  curveVertex(14+x-u,q-4+y);
+  curveVertex(14+x-u,q-4+y);
+curveVertex(q+26+x,q-4+y);
+curveVertex(c+(40-2*h)+x,2*m+y);
+curveVertex(q+26+x,q+(4*m-4)+y);
+curveVertex(14+x-q,q+(4*m-4)+y);
+curveVertex((0+2*h)+x-c,2*m+y);
+  curveVertex(14+x-u,q-4+y);
+  curveVertex(14+x-u,q-4+y);
 
+endShape();
+r=0;
+}else
+r++;
 beginShape();
   curveVertex(14+x-u,q-4+y);
   curveVertex(14+x-u,q-4+y);
