@@ -2,7 +2,7 @@
 float m=(float)Math.pow(3,.5)*5;
 float h =(float)Math.pow(2,.5)*2;
 int r =0;
-float c=(float)(Math.random())*2.82842712475;
+float c=(float)((Math.random())*2.82842712475);
 void setup() {
   size(500, 500);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
@@ -55,10 +55,10 @@ beginShape();
 curveVertex(14+x-u,4+y-d);
 curveVertex(14+x-u,4+y-d);
 curveVertex(q+26+x,4+y-q);
-curveVertex((40-2*h)+x-c,2*m+y);
+curveVertex((40-2*h)+x+c,2*m+y);
 curveVertex(q+26+x,q+(4*m-4)+y);
 curveVertex(14+x-q,q+(4*m-4)+y);
-curveVertex((0+2*h)+x+c,2*m+y);
+curveVertex((0+2*h)+x-c,2*m+y);
 curveVertex(14+x-u,4+y-d);
 curveVertex(14+x-u,4+y-d);
 
