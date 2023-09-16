@@ -11,7 +11,7 @@ void setup() {
 
 //Grid
 void draw() {
-  for(float j=(float)0;j<517;j+=(float)2*17.3205080757){
+  for(float j=(float)0;j<535;j+=(float)2*17.3205080757){
   for(int t=-30;t<510;t+=60){
 
 hexa(t,j-2*m);
