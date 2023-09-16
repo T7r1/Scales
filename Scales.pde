@@ -44,15 +44,15 @@ float b=(float)(Math.random())*15;
 fill(175+b,175+b,175+b);
 
 beginShape();
-curveVertex(q*14+x,q*4+y);
-curveVertex(q*14+x,q*4+y);
-curveVertex(q*26+x,q*4+y);
-curveVertex(q*(40-2*h)+x,q*2*m+y);
-curveVertex(q*26+x,q*(4*m-4)+y);
-curveVertex(q*14+x,q*(4*m-4)+y);
-curveVertex(q*(0+2*h)+x,q*2*m+y);
-curveVertex(q*14+x,q*4+y);
-curveVertex(q*14+x,q*4+y);
+curveVertex(14+x-q,4+y-q);
+curveVertex(14+x-q,4+y-q);
+curveVertex(q+26+x,q-4+y);
+curveVertex(c+(40-2*h)+x,2*m+y);
+curveVertex(q+26+x,q+(4*m-4)+y);
+curveVertex(14+x-q,q+(4*m-4)+y);
+curveVertex((0+2*h)+x-c,2*m+y);
+curveVertex(14+x-q,4+y-q);
+curveVertex(14+x-q,4+y-q);
 
 endShape();
 
